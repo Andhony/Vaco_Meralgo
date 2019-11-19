@@ -1,8 +1,28 @@
-.card{
-    width: 40%;
+.tarjetasPresentacion{
+    width: 25%;
+
 }
 
 .padreTarjetas{
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+}
+
+.hijoTarjetas{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: white;
+}
+.fundadores{
+    text-align: center;
+    margin-top: 20px;
+}
+.card-text{
+    text-align: justify;
+}
+.card-title{
+    text-align: center;
 }
