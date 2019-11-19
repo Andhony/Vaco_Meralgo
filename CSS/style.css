@@ -24,6 +24,8 @@
 }
 
 .imgCar{
-    width: 70%;
-    height: 50vh;
+    width: 60%;
+    height: 60%;
+    padding: 15px;
+    border: red;
 }
