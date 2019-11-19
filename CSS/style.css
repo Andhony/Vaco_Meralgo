@@ -17,10 +17,11 @@
 }
 #banner{
     width: 100%;
-    height: 70vh;
+    height: 55vh;
 }
 #logo{
-    width: 8%;
+    width: 7%;
+    height: 7vh;
 }
 
 .imgCar{
@@ -28,4 +29,7 @@
     height: 60%;
     padding: 15px;
     border: red;
+}
+.nav-link{
+    margin: 0 15px;
 }

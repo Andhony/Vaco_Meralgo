@@ -1,0 +1,8 @@
+.card{
+    width: 40%;
+}
+
+.padreTarjetas{
+    display: flex;
+    flex-wrap: nowrap;
+}
