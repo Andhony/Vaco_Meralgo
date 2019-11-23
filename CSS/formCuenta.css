@@ -1,0 +1,20 @@
+.main-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 0%;
+}
+.divForm{
+    width: 50%;
+}
+.divBtnCrear{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Acepto{
+    text-align: center;
+}
+.btnCrear{
+    width: 30%;
+}
