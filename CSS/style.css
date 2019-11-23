@@ -15,6 +15,7 @@
     width: 90%;
     background-color: white;
 }
+
 #banner{
     width: 100%;
     height: 70vh;
@@ -27,5 +28,82 @@
     width: 60%;
     height: 60%;
     padding: 15px;
+<<<<<<< HEAD
     
+=======
+    border: red;
+}
+.nav-link{
+    margin: 0 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer i, footer div{
+    color: white;
+    cursor: pointer;
+}
+.brand-logo{
+    width: 45%;
+}
+.llamanos-body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.774);
+    padding: 5%;
+    
+    background-size: 100%;
+}
+.cPedidos{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: 20pt;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+.h3C{
+    text-align: center;
+    width:100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: 20pt;
+}
+.list-servicios{
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.list-servicios li{
+    font-size: 15pt;
+}
+.list-dep{
+    width: 25%;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+.map iframe{
+    width: 100%;
+    background-color: aqua; 
+}
+.modal-title{
+    text-align: center;
+}
+#enviar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#enviar button{
+    width: 25%;
+>>>>>>> bb1fc6b6d1559af067b9a40f28d2a633c96bc7fe
 }
