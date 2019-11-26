@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vaco Meralgo</title>
-    <link rel="shortcut icon" href="/Imagenes/Vaco_Meralgo.png"/>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="shortcut icon" href="../Imagenes/Vaco_Meralgo.png"/>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/carretilla.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,10 +15,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <img src="/Imagenes/banner.jpg" alt="Mi banner" id="banner">
+    <img src="../Imagenes/banner.jpg" alt="Mi banner" id="banner">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand brand-logo" href="index.html" > 
-            <img src="/Imagenes/Vaco_Meralgo.png" alt="Vaco_Meralgo" id="logo">
+            <img src="../Imagenes/Vaco_Meralgo.png" alt="Vaco_Meralgo" id="logo">
             <b> Vaco Meralgo </b>
         </a>    
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"> 
@@ -25,17 +26,17 @@
         </button> 
         <div class= "collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class= "navbar-nav mr-auto mt-2 mt-lg-0" > 
-                <li class= "nav-item active" > 
-                    <a class= "nav-link" href= "/index.html"><i class="fas fa-home"> Inicio </i></a> 
+                <li class= "nav-item"> 
+                    <a class= "nav-link" href= "../index.html"><i class="fas fa-home"> Inicio </i></a> 
                 </li>
                 <li class= "nav-item" > 
-                    <a class= "nav-link" href= "/HTML/comidas.html"> <i class="fas fa-utensils"> Comidas </i></a> 
+                    <a class= "nav-link" href= "../HTML/comidas.html"> <i class="fas fa-utensils"> Comidas </i></a> 
                 </li>
                 <li class= "nav-item" > 
-                    <a class= "nav-link" href= "/HTML/conocenos.html"> <i class="fas fa-book"> Conócenos... </i></a> 
+                    <a class= "nav-link" href= "../HTML/conocenos.html"> <i class="fas fa-book"> Conócenos... </i></a> 
                 </li>  
-                <li class="nav-item">
-                    <a class="nav-link" href="/HTML/carretilla.html"><i class="fas fa-shopping-cart"> Carrito</i></a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../HTML/carretilla.html"><i class="fas fa-shopping-cart"> Carrito</i></a>
                 </li>
             </ul> 
             <form class= "form-inline my-2 my-lg-0" > 
@@ -44,6 +45,52 @@
 
         </div> 
     </nav>
+    <div class="container">
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Iniciar Sesión</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1"> Dirección de correo:</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usuario@gmail.com">
+                                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tus datos con nadie.</small>
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1"> Contraseña: </label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                                </div>
+                                <div id="enviar">
+                                    <button type="submit" class="btn btn-success"> Entrar</button>
+                                </div>
+                              </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="../HTML/formCuenta.html">Crear cuenta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row filacarro">
+            <div class="col-md-12 carro">
+                <div class="carro-titulo">
+                    <br>
+                    <h3>Mi carretilla</h3>
+                    <br>                    
+                </div>
+                <div class="carro-body">
+                    <b><p>Aún no tienes productos en tu carretilla</p></b>
+                </div>
+                <a href="../HTML/comidas.html" class="btn btn-success">Ir al menú</a>
+            </div>
+        </div>
+    </div>
 </body>
 <footer class="page-footer font-small bg-dark">
     <div class="container">
